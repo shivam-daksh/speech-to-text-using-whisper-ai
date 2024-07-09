@@ -4,7 +4,7 @@ import whisper
 app = Flask(__name__)
 
 # Load your model
-model = whisper.load_model("path/to/your/model")
+model = whisper.load_model("medium")
 
 @app.route('/')
 def index():
